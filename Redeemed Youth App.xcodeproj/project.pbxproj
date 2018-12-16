@@ -15,6 +15,8 @@
 		912F6E9821C5ED56008611DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912F6E9621C5ED56008611DB /* LaunchScreen.storyboard */; };
 		912F6EA321C5ED56008611DB /* Redeemed_Youth_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F6EA221C5ED56008611DB /* Redeemed_Youth_AppTests.swift */; };
 		912F6EAE21C5ED56008611DB /* Redeemed_Youth_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F6EAD21C5ED56008611DB /* Redeemed_Youth_AppUITests.swift */; };
+		D8228A4821C60EDE0075A505 /* Grace.png in Resources */ = {isa = PBXBuildFile; fileRef = D8228A4721C60EDE0075A505 /* Grace.png */; };
+		D8228A4A21C60F160075A505 /* FubcYouth.png in Resources */ = {isa = PBXBuildFile; fileRef = D8228A4921C60F160075A505 /* FubcYouth.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		912F6EA921C5ED56008611DB /* Redeemed Youth AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Redeemed Youth AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		912F6EAD21C5ED56008611DB /* Redeemed_Youth_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redeemed_Youth_AppUITests.swift; sourceTree = "<group>"; };
 		912F6EAF21C5ED56008611DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8228A4721C60EDE0075A505 /* Grace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grace.png; sourceTree = "<group>"; };
+		D8228A4921C60F160075A505 /* FubcYouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FubcYouth.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				912F6E8A21C5ED53008611DB /* AppDelegate.swift */,
 				912F6E8C21C5ED53008611DB /* ViewController.swift */,
+				D8228A4921C60F160075A505 /* FubcYouth.png */,
+				D8228A4721C60EDE0075A505 /* Grace.png */,
 				912F6E8E21C5ED53008611DB /* Main.storyboard */,
 				912F6E9421C5ED56008611DB /* Assets.xcassets */,
 				912F6E9621C5ED56008611DB /* LaunchScreen.storyboard */,
@@ -234,7 +240,9 @@
 			files = (
 				912F6E9821C5ED56008611DB /* LaunchScreen.storyboard in Resources */,
 				912F6E9521C5ED56008611DB /* Assets.xcassets in Resources */,
+				D8228A4821C60EDE0075A505 /* Grace.png in Resources */,
 				912F6E9021C5ED53008611DB /* Main.storyboard in Resources */,
+				D8228A4A21C60F160075A505 /* FubcYouth.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
