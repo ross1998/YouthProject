@@ -58,6 +58,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "NotificationCell") as! notificationCell
         
+        cell.contentView.backgroundColor = UIColor.yellow //Messing Around with background color of notifications
         cell.setLabel(label: label)
         
         return cell
