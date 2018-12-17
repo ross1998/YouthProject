@@ -35,12 +35,18 @@ class ViewController: UIViewController {
         let label3 = Labels(date: "12/27/18", ministry: "Band", notificationText: "Band is playing tomorrow morning, please where black suits and black ties!")
         let label4 = Labels(date: "12/28/18", ministry: "Leaders", notificationText: "Lets have a metting tonight after choir practice at 9pm")
         let label5 = Labels(date: "12/29/18", ministry: "WorshipBand", notificationText: "Sorry cant make it today lets cancel practice?")
+        let label6 = Labels(date: "12/27/18", ministry: "Band", notificationText: "Band is playing tomorrow morning, please where black suits and black ties!")
+        let label7 = Labels(date: "12/28/18", ministry: "Leaders", notificationText: "Lets have a metting tonight after choir practice at 9pm")
+        let label8 = Labels(date: "12/29/18", ministry: "WorshipBand", notificationText: "Sorry cant make it today lets cancel practice?")
         
         tempLabels.append(label1)
         tempLabels.append(label2)
         tempLabels.append(label3)
         tempLabels.append(label4)
         tempLabels.append(label5)
+        tempLabels.append(label6)
+        tempLabels.append(label7)
+        tempLabels.append(label8)
         
         return tempLabels
         
@@ -58,7 +64,9 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "NotificationCell") as! notificationCell
         
+        if (cell.ministryLabel.isEqual("Band")){
         cell.contentView.backgroundColor = UIColor.yellow //Messing Around with background color of notifications
+        }
         cell.setLabel(label: label)
         
         return cell
