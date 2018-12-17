@@ -17,6 +17,8 @@
 		912F6EAE21C5ED56008611DB /* Redeemed_Youth_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F6EAD21C5ED56008611DB /* Redeemed_Youth_AppUITests.swift */; };
 		D8228A4821C60EDE0075A505 /* Grace.png in Resources */ = {isa = PBXBuildFile; fileRef = D8228A4721C60EDE0075A505 /* Grace.png */; };
 		D8228A4A21C60F160075A505 /* FubcYouth.png in Resources */ = {isa = PBXBuildFile; fileRef = D8228A4921C60F160075A505 /* FubcYouth.png */; };
+		D8228A4C21C797230075A505 /* notificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8228A4B21C797230075A505 /* notificationCell.swift */; };
+		D8228A5021C823080075A505 /* Labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8228A4F21C823080075A505 /* Labels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		912F6EAF21C5ED56008611DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8228A4721C60EDE0075A505 /* Grace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grace.png; sourceTree = "<group>"; };
 		D8228A4921C60F160075A505 /* FubcYouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FubcYouth.png; sourceTree = "<group>"; };
+		D8228A4B21C797230075A505 /* notificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationCell.swift; sourceTree = "<group>"; };
+		D8228A4F21C823080075A505 /* Labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Labels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,15 +107,17 @@
 		912F6E8921C5ED53008611DB /* Redeemed Youth App */ = {
 			isa = PBXGroup;
 			children = (
+				912F6E8E21C5ED53008611DB /* Main.storyboard */,
 				912F6E8A21C5ED53008611DB /* AppDelegate.swift */,
 				912F6E8C21C5ED53008611DB /* ViewController.swift */,
 				D8228A4921C60F160075A505 /* FubcYouth.png */,
 				D8228A4721C60EDE0075A505 /* Grace.png */,
-				912F6E8E21C5ED53008611DB /* Main.storyboard */,
 				912F6E9421C5ED56008611DB /* Assets.xcassets */,
 				912F6E9621C5ED56008611DB /* LaunchScreen.storyboard */,
 				912F6E9921C5ED56008611DB /* Info.plist */,
 				912F6E9121C5ED53008611DB /* Redeemed_Youth_App.xcdatamodeld */,
+				D8228A4B21C797230075A505 /* notificationCell.swift */,
+				D8228A4F21C823080075A505 /* Labels.swift */,
 			);
 			path = "Redeemed Youth App";
 			sourceTree = "<group>";
@@ -267,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8228A4C21C797230075A505 /* notificationCell.swift in Sources */,
+				D8228A5021C823080075A505 /* Labels.swift in Sources */,
 				912F6E9321C5ED53008611DB /* Redeemed_Youth_App.xcdatamodeld in Sources */,
 				912F6E8D21C5ED53008611DB /* ViewController.swift in Sources */,
 				912F6E8B21C5ED53008611DB /* AppDelegate.swift in Sources */,
