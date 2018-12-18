@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         
         var tempLabels: [Labels] = []
         
-        let label1 = Labels(date: "12/25/18", ministry: "Youth", notificationText: "Everyone is invited to come to tonights service @7pm, special guest speaker!")
+        let label1 = Labels(date: "12/25/18", ministry: "Youth", notificationText: "Everyone is invited to come to tonights service @7pm, special guest speaker! aaaa a a a aa aa aa aa aa a a aa  a a a a a a aaaa a a a a aa aaaa a aa a aaa a aa aaa  a  a a ")
         let label2 = Labels(date: "12/26/18", ministry: "Choir", notificationText: "Last choir rehersal before we sing this sunday, please come at 7!")
         let label3 = Labels(date: "12/27/18", ministry: "Band", notificationText: "Band is playing tomorrow morning, please where black suits and black ties!")
         let label4 = Labels(date: "12/28/18", ministry: "Leaders", notificationText: "Lets have a metting tonight after choir practice at 9pm")
@@ -69,22 +69,23 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         let label = labels[indexPath.row]
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "NotificationCell") as! notificationCell
-        
+
         cell.setLabel(label: label)
         
         if cell.ministryLabel.text == "Band" {
-        cell.contentView.backgroundColor = UIColor.yellow
+            cell.contentView.backgroundColor = UIColor.gray//.init(red: 255, green: 247, blue: 176, alpha: 0)
         } else if cell.ministryLabel.text == "Youth" {
-            cell.contentView.backgroundColor = UIColor.blue
+            cell.contentView.backgroundColor = UIColor.lightText//.init(red: 193, green: 247, blue: 255, alpha: 0)
         } else if cell.ministryLabel.text == "Choir" {
-            cell.contentView.backgroundColor = UIColor.green
+            cell.contentView.backgroundColor = UIColor.brown//.init(red: 255, green: 182, blue: 126, alpha: 0)
         } else if cell.ministryLabel.text == "WorshipBand" {
-            cell.contentView.backgroundColor = UIColor.orange
+            cell.contentView.backgroundColor = UIColor.lightGray//.init(red: 88, green: 121, blue: 118, alpha: 0)
         } else if cell.ministryLabel.text == "Leaders" {
-            cell.contentView.backgroundColor = UIColor.purple
+            cell.contentView.backgroundColor = UIColor.cyan//.init(red: 149, green: 141, blue: 220, alpha: 0)
         } else {
-            cell.contentView.backgroundColor = UIColor.white
+            cell.contentView.backgroundColor = UIColor.white//.init(red: 250, green: 250, blue: 250, alpha: 0)
         }
+        
         print(cell.ministryLabel.text)
         
         //cell.setLabel(label: label)
@@ -95,9 +96,10 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     override func viewWillAppear(_ animated: Bool) {
         tableView.estimatedRowHeight = 100
         tableView.rowHeight = UITableView.automaticDimension
-        
+        //tableViewHeightConstraint.constant = tableView.contentSize.height
     
     }
+    
+    
 }
-
 
