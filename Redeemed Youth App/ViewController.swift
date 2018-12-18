@@ -70,12 +70,24 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "NotificationCell") as! notificationCell
         
+        cell.setLabel(label: label)
+        
         if cell.ministryLabel.text == "Band" {
         cell.contentView.backgroundColor = UIColor.yellow
+        } else if cell.ministryLabel.text == "Youth" {
+            cell.contentView.backgroundColor = UIColor.blue
+        } else if cell.ministryLabel.text == "Choir" {
+            cell.contentView.backgroundColor = UIColor.green
+        } else if cell.ministryLabel.text == "WorshipBand" {
+            cell.contentView.backgroundColor = UIColor.orange
+        } else if cell.ministryLabel.text == "Leaders" {
+            cell.contentView.backgroundColor = UIColor.purple
+        } else {
+            cell.contentView.backgroundColor = UIColor.white
         }
         print(cell.ministryLabel.text)
         
-        cell.setLabel(label: label)
+        //cell.setLabel(label: label)
         
         return cell
     }
