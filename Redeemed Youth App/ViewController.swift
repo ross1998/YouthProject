@@ -64,7 +64,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "NotificationCell") as! notificationCell
         
-        if (cell.ministryLabel.isEqual("Band")){
+        if ((cell.ministryLabel.text?.elementsEqual("Youth"))!){
         cell.contentView.backgroundColor = UIColor.yellow //Messing Around with background color of notifications
         }
         cell.setLabel(label: label)
