@@ -37,10 +37,11 @@ class ViewController: UIViewController {
         let label5 = Labels(date: "12/29/18", ministry: "WorshipBand", notificationText: "Sorry cant make it today lets cancel practice?")
         let label6 = Labels(date: "12/27/18", ministry: "Band", notificationText: "Band is playing tomorrow morning, please where black suits and black ties!")
         let label7 = Labels(date: "12/28/18", ministry: "Leaders", notificationText: "Lets have a metting tonight after choir practice at 9pm")
-        let label8 = Labels(date: "12/29/18", ministry: "WorshipBand", notificationText: "Sorry cant make it today lets cancel practice?")
+        let label8 = Labels(date: "12/29/18", ministry: "Worship Band", notificationText: "Sorry cant make it today lets cancel practice?")
         let label9 = Labels(date: "12/27/18", ministry: "Band", notificationText: "Band is playing tomorrow morning, please where black suits and black ties!")
         let label10 = Labels(date: "12/28/18", ministry: "Leaders", notificationText: "Lets have a metting tonight after choir practice at 9pm")
         let label11 = Labels(date: "12/29/18", ministry: "WorshipBand", notificationText: "Sorry cant make it today lets cancel practice?")
+        let label12 = Labels(date: "12/30/18", ministry: "Men's Choir", notificationText: "Men's choir rehersal this sunday after church, please come as fast as possible, dont go to any Mc Donalds!")
         
         tempLabels.append(label1)
         tempLabels.append(label2)
@@ -53,6 +54,7 @@ class ViewController: UIViewController {
         tempLabels.append(label9)
         tempLabels.append(label10)
         tempLabels.append(label11)
+        tempLabels.append(label12)
         
         return tempLabels
         
@@ -82,10 +84,11 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
             cell.contentView.backgroundColor = UIColor.lightGray//.init(red: 88, green: 121, blue: 118, alpha: 0)
         } else if cell.ministryLabel.text == "Leaders" {
             cell.contentView.backgroundColor = UIColor.cyan//.init(red: 149, green: 141, blue: 220, alpha: 0)
+        } else if cell.ministryLabel.text == "Men's Choir" {
+            cell.contentView.backgroundColor = UIColor.green
         } else {
             cell.contentView.backgroundColor = UIColor.white//.init(red: 250, green: 250, blue: 250, alpha: 0)
         }
-        
         print(cell.ministryLabel.text)
         
         //cell.setLabel(label: label)
