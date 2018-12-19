@@ -27,6 +27,8 @@ class SettingsViewController: UIViewController {
     @IBAction func close(){
         dismiss(animated: true, completion: nil)
     }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         createMinistryPicker()
@@ -80,6 +82,7 @@ extension SettingsViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         selectedMinistry = ministries[row]
         ministryNotificationTextField.text = selectedMinistry
+        
         if ministryNotificationTextField.text != nil {
                 passwordTextField.isHidden = false
                 enterPasswordButton.isHidden = false
