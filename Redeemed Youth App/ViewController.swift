@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Redeemed Youth App
 //
-//  Created by Rostislav Martsenyak on 12/15/18.
+//  Created by Roman Kucheryavyy & Rostislav Martsenyak on 12/15/18.
 //  Copyright © 2018 Ross M. All rights reserved.
 //
 
