@@ -37,7 +37,7 @@ class ViewController: UIViewController {
         let label5 = Labels(date: "12/29/18", ministry: "WorshipBand", notificationText: "Sorry cant make it today lets cancel practice?")
         let label6 = Labels(date: "12/27/18", ministry: "Band", notificationText: "Band is playing tomorrow morning, please where black suits and black ties!")
         let label7 = Labels(date: "12/28/18", ministry: "Leaders", notificationText: "Lets have a metting tonight after choir practice at 9pm")
-        let label8 = Labels(date: "12/29/18", ministry: "Worship Band", notificationText: "Sorry cant make it today lets cancel practice?")
+        let label8 = Labels(date: "12/29/18", ministry: "WorshipBand", notificationText: "Sorry cant make it today lets cancel practice?")
         let label9 = Labels(date: "12/27/18", ministry: "Band", notificationText: "Band is playing tomorrow morning, please where black suits and black ties!")
         let label10 = Labels(date: "12/28/18", ministry: "Leaders", notificationText: "Lets have a metting tonight after choir practice at 9pm")
         let label11 = Labels(date: "12/29/18", ministry: "WorshipBand", notificationText: "Sorry cant make it today lets cancel practice?")
