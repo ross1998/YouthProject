@@ -17,6 +17,7 @@
 		912F6EAE21C5ED56008611DB /* Redeemed_Youth_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912F6EAD21C5ED56008611DB /* Redeemed_Youth_AppUITests.swift */; };
 		D8012B4E21C9DA2E00ECF21C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8012B4D21C9DA2E00ECF21C /* SettingsViewController.swift */; };
 		D8012B5221D1C4F400ECF21C /* VerseViewcontroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8012B5121D1C4F400ECF21C /* VerseViewcontroller.swift */; };
+		D8012B5C21F1988A00ECF21C /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8012B5B21F1988A00ECF21C /* CalendarViewController.swift */; };
 		D8228A4821C60EDE0075A505 /* Grace.png in Resources */ = {isa = PBXBuildFile; fileRef = D8228A4721C60EDE0075A505 /* Grace.png */; };
 		D8228A4A21C60F160075A505 /* FubcYouth.png in Resources */ = {isa = PBXBuildFile; fileRef = D8228A4921C60F160075A505 /* FubcYouth.png */; };
 		D8228A4C21C797230075A505 /* notificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8228A4B21C797230075A505 /* notificationCell.swift */; };
@@ -57,6 +58,7 @@
 		912F6EAF21C5ED56008611DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8012B4D21C9DA2E00ECF21C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		D8012B5121D1C4F400ECF21C /* VerseViewcontroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerseViewcontroller.swift; sourceTree = "<group>"; };
+		D8012B5B21F1988A00ECF21C /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		D8228A4721C60EDE0075A505 /* Grace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Grace.png; sourceTree = "<group>"; };
 		D8228A4921C60F160075A505 /* FubcYouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FubcYouth.png; sourceTree = "<group>"; };
 		D8228A4B21C797230075A505 /* notificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationCell.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				D8228A4B21C797230075A505 /* notificationCell.swift */,
 				D8228A4F21C823080075A505 /* Labels.swift */,
 				D8012B5121D1C4F400ECF21C /* VerseViewcontroller.swift */,
+				D8012B5B21F1988A00ECF21C /* CalendarViewController.swift */,
 			);
 			path = "Redeemed Youth App";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8012B5C21F1988A00ECF21C /* CalendarViewController.swift in Sources */,
 				D8228A4C21C797230075A505 /* notificationCell.swift in Sources */,
 				D8228A5021C823080075A505 /* Labels.swift in Sources */,
 				D8012B5221D1C4F400ECF21C /* VerseViewcontroller.swift in Sources */,

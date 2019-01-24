@@ -11,12 +11,6 @@ import UIKit
 class VerseViewController: UIViewController {
 
 
-
-
-
-
-
-
     @IBAction func close(){
         dismiss(animated: true, completion: nil)
     }
