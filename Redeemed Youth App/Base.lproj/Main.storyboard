@@ -392,14 +392,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rWv-dQ-uvU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1771" y="-318"/>
+            <point key="canvasLocation" x="1770.4000000000001" y="-318.4729064039409"/>
         </scene>
     </scenes>
     <resources>
         <image name="Grace.png" width="326" height="470"/>
-        <image name="book-2x" width="24" height="24"/>
-        <image name="calendar-2x" width="24" height="24"/>
-        <image name="info-2x" width="24" height="24"/>
-        <image name="menu-2x" width="24" height="24"/>
+        <image name="book-2x" width="48" height="48"/>
+        <image name="calendar-2x" width="48" height="48"/>
+        <image name="info-2x" width="48" height="48"/>
+        <image name="menu-2x" width="48" height="48"/>
     </resources>
 </document>
